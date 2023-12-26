@@ -1,1 +1,4 @@
 # xcursor-build
+
+## dependencies
+`just`
