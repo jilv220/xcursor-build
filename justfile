@@ -17,6 +17,9 @@ create-cursors:
 link:
     scripts/link.sh
 
+previewgen:
+    scripts/previewgen.sh
+
 build:
     rm -r .{{builddir}}/*
     rm ./cursors/*
