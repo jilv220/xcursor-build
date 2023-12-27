@@ -3,6 +3,7 @@
 
 cursor_theme_name := 'kasane-teto-cursor'
 
+# Config directory here
 basedir := ''
 builddir := basedir / 'build'
 assetsdir := basedir / 'assets'
@@ -13,9 +14,14 @@ local-install-dir := '~/.icons'
 create-cursors:
     scripts/create_cursors.sh {{pngdir}}
 
+link:
+    scripts/link.sh
+
 build:
     rm -r .{{builddir}}/*
+    rm ./cursors/*
     just create-cursors
+    just link
     scripts/build.sh {{builddir}}/{{cursor_theme_name}}
 
 install-local:

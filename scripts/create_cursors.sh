@@ -5,10 +5,10 @@ path="$(pwd)$@"
 cursors_path="$(pwd)/cursors"
 
 append_32() {
-  for d in $(ls $1)
+  for f in $(ls $1)
   do
-    echo "Appending $d..."
-    echo "32 2 4 $d 250" >> $cursor_file_path
+    echo "Appending $f..."
+    echo "32 2 4 $f 250" >> $cursor_file_path
   done
 }
 
