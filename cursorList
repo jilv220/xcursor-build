@@ -1,3 +1,4 @@
+closedhand grabbing
 crosshair cross
 crosshair color-picker 
 default left_ptr
@@ -48,6 +49,7 @@ nwse-resize se-resize
 nwse-resize size_fdiag
 nwse-resize top_left_corner 
 nwse-resize bottom_right_corner 
+openhand grab
 plus cell
 text xterm
 text ibeam 

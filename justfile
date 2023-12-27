@@ -26,6 +26,7 @@ build:
     just create-cursors
     just link
     scripts/build.sh {{builddir}}/{{cursor_theme_name}}
+    just previewgen
 
 install-local:
     mkdir -p {{local-install-dir}}
