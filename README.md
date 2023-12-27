@@ -4,6 +4,7 @@
 ```
 just 
 xcursorgen
+imagemagick(convert)
 ```
 
 ## Acknowledgement

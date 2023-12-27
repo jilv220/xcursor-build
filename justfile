@@ -1,7 +1,7 @@
 # Learn how to use justfile from pop-os/launcher!
 # https://github.com/pop-os/launcher/blob/master/justfile
 
-cursor_theme_name := 'kasane-teto-cursor'
+cursor_theme_name := 'kasane-teto-cursors'
 
 # Config directory here
 basedir := ''
@@ -21,7 +21,7 @@ previewgen:
     scripts/previewgen.sh
 
 build:
-    rm -r .{{builddir}}/*
+    rm -rf .{{builddir}}/*
     rm ./cursors/*
     just create-cursors
     just link
