@@ -12,6 +12,7 @@ pngdir := assetsdir / 'png'
 local-install-dir := '~/.icons' 
 
 create-cursors:
+    rm -rf ./assets/png/**/*.cursor
     scripts/create_cursors.sh {{pngdir}}
 
 link:
@@ -25,8 +26,8 @@ build:
     rm ./cursors/*
     just create-cursors
     just link
-    scripts/build.sh {{builddir}}/{{cursor_theme_name}}
     just previewgen
+    scripts/build.sh {{builddir}}/{{cursor_theme_name}}
 
 install-local:
     mkdir -p {{local-install-dir}}
