@@ -33,7 +33,20 @@ Inherits = <the old cursor theme> #optional
 8. Run `just install-local` to install locally into `~/.icons`
 9. Zip and publish your cursor theme to `gnome-look`, or package it manually into corresponding distro's package format
 
-## Wiki
+## Some Term Differences 
+| Cursor Name | CSS Cursor Name |
+| ----------- | ----------- |
+| link/pointer | pointer |
+| left_ptr_watch | progress |
+| plus | cell |
+| link/alias | alias |
+| fleur | move |
+| openhand | grab |
+| closedhand | grabbing |
+| fleur | all-scroll |
+
+For more details, please consult 
+[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor#examples).
 
 ## Acknowledgement
 [Arch Wiki](https://wiki.archlinux.org/title/Cursor_themes)<br>
