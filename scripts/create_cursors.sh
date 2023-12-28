@@ -6,8 +6,8 @@ cursors_path="$(pwd)/cursors"
 
 append_32() {
   local delay="250"
-  local hotx="2"
-  local hoty="4"
+  local hotx="0"
+  local hoty="0"
 
   for f in $(ls $1)
   do

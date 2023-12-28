@@ -8,6 +8,7 @@ create_config() {
 
   cat <<EOF > $config_path
 delay 250
+size-24 0 0
 size-32 0 0
 size-48 0 0
 size-64 0 0
