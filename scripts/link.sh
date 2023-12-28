@@ -1,5 +1,5 @@
 #!/bin/bash
-input="./cursorList"
+input="./linkingList"
 cursordir="./cursors"
 
 while IFS= read -r line
