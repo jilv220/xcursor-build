@@ -1,7 +1,7 @@
 # Learn how to use justfile from pop-os/launcher!
 # https://github.com/pop-os/launcher/blob/master/justfile
 
-cursor_theme_name := 'default'
+cursor_theme_name := 'test'
 
 # Config directory here
 basedir := ''
